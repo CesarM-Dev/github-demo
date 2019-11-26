@@ -1,0 +1,17 @@
+git version
+git config --global user.name "Your Name"
+git config --global user.email "example@example.com"
+git config --global --list
+git clone github-https-url # paste in your GitHub HTTPS clone URL ls
+cd github-demo
+ls
+git status
+echo "Test Git Quick Start demo" >> start.txt
+ls
+cat start.txt
+git status
+git add start.txt
+git status
+git commit -m "Adding start text file"
+git status
+git push origin master
